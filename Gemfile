@@ -41,10 +41,13 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  
+
   # Behavior Driven Development using Cucumber
   gem 'cucumber-rails', :require => false
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
+  
+  # Test Driven Development using RSpec
+  gem "rspec-rails"
 end
 
